@@ -133,29 +133,53 @@ opacity: .8;
 }
 /*This begins navigation css*/
 .navbar-default {
-    background-color: rgba(138, 151, 230, .9) !important;
+    /*background-color: rgba(138, 151, 230, .9) !important;*/
+    background-color: white !important;
     border: none !important;
     height: 65px;
+    border-bottom: 1px solid #3f217e !important;
+
+}
+
+.navbar-header{
+ background: transparent !important;
 }
 
 .navbar-nav a {
-    color: white !important;
+color: #3f217e !important;
     font-size: 20px!important;
     font-weight: 100 !important;
     font-family: 'Lato', sans-serif !important;
-    background: transparent !important;
+    /*background: transparent !important;*/
+}
+.navbar-nav a:hover{
+  color: #3f217e;
 }
 
 .navbar-brand img {
     height: 100px;
     width: 300px;
-}
+
+ }
 .navbar-toggle{
   background-color: transparent !important;
+
+  }
+  .navbar-header{
+    background-color: white;
   }
 .navbar-collapse{
   border: none !important;
   padding: -15px !important;
+ }
+ /*.navbar-collapse li{
+   width: 100vw;
+   text-align: left;
+ }*/
+#example-navbar-collapse{
+  border: none !important;
+  padding: -15px !important;
+  background-color: white;
 }
 /*begins about me section*/
 #aboutMe {
@@ -221,6 +245,7 @@ background: white;
     margin-top: 32px;
     margin-bottom: 32px;
     text-align: center;
+
 }
 
 #bites h2 {
@@ -257,15 +282,18 @@ background: white;
 
 .bit {
     margin-top: 32px;
-    line-height: 1.5;
+    /*line-height: 1.2;*/
     font-family: 'Lato';
     font-weight: 400;
+    height: 200px;
+    font-size: 15px;
+}
+.bit p{
+line-height: 1 !important;
+
 }
 
-.bit ul {
-    list-style: none;
-    list-style-position: inside !important;
-}
+
 
 .bit h3 {
     text-align: center;
@@ -362,6 +390,16 @@ opacity: .7;
     letter-spacing: 1.8px;
     color: #ffffff;
 }
+#bottomHero h3 {
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+}
 
 #bottomHero p {
     /*width: 372px;*/
@@ -392,6 +430,7 @@ opacity: .7;
     max-height: 102px;
     background-image: linear-gradient(108deg, #3023ae, #c96dd8);
     margin-bottom: 0px !important;
+    color: white !important;
  }
 
 #footer hr {
@@ -434,9 +473,10 @@ opacity: .7;
 
 #footer a {
   text-decoration: none !important;
+  color: white;
 }
 #footer a:visited {
-  color: white;
+  color: white !important;
 }
 
 
@@ -543,7 +583,7 @@ margin-bottom: 32px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.18);
   border: solid 1px #979797;
-  margin: 15px;
+  /*margin: 15px;*/
   text-align: center;
 }
 
@@ -602,21 +642,22 @@ padding-top: 100px;
 
 .certs {
   font-family: 'Lato' !important;
-  font-size: 22px !important;
+  font-size: 18px !important;
   font-weight: 300;
   text-align: center;
   color: #2f3841;
   color: var(--charcoal-grey);
-}
+ }
 
 .certDetails{
-  height: 166px;
+  height: 175px;
   background-color: #ffffff;
   box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.18);
   border: solid 1px #979797;
  margin-bottom: 32px;
- /*max-width: 300px !important;
- margin-left: 19px;*/
+ margin-left: 5px;
+ margin-right: 5px;
+
   }
 /*.shopping{
   margin-top: 0px !important;
@@ -624,6 +665,140 @@ padding-top: 100px;
 }*/
 
 
+/*This begins contact page CSS*/
+#contact{
+  background-image: url(/img/contact-hero@2x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: -15px;
+  width: 100vw !important;
+  margin-right: -15px !important;
+}
+#form{
+  margin-top: 100px;
+  height: 80vh;
+  /*width: 80%;*/
+  padding: 32px !important;
+}
+.contact-Me{
+  font-family: 'Lato';
+  font-size: 46px;
+  font-weight: 100;
+  color: white !important;
+  text-align: center;
+ }
+
+.enterName {
+  width: 519px;
+  height: 47px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  background-color: var(--white);
+}
+.enterEmail {
+  width: 519px;
+  height: 47px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  background-color: var(--white);
+}
+.enterMessage {
+  width: 519px;
+  height: 250px !important;
+  border-radius: 5px;
+  background-color: #f4f4f4 !important;
+  background-color: var(--white);
+}
+
+.submit {
+  width: 189.6px;
+  max-height: 55.2px;
+  border-radius: 100px;
+  background-color: #ff6876 !important;
+  font-family: 'Lato';
+    font-size: 20px !important;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+ }
+ #contactForm {
+   width: 100px !important;
+ }
+ /*.form label{
+   width: 50px !important ;
+   }*/
+
+.contactImage{
+    margin-top: 100px;
+ max-width: 322px;
+ max-height: 320px;
+ border: solid 5px #8b74bd;
+ border: solid 5px var(--deep-lilac);
+
+}
+
+/*this begins thank you page*/
+#thankYou{
+  background-image: linear-gradient(108deg, #3023ae, #c96dd8);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 60vh;
+  width: 100vw;
+}
+
+#bottomHeroThank {
+    display: flex;
+    flex: 1;
+    align-content: center !important;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 1440px;
+    height: 90vh;
+    background-image: linear-gradient(108deg, #3023ae, #c96dd8);
+}
+#bottomHeroThank img{
+  max-width: 200px;
+  max-height: 214px;
+}
+#bottomHeroThank h2 {
+    font-family: 'Lato';
+    font-size: 38px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+}
+#bottomHeroThank h3 {
+    font-family: 'Lato';
+    font-size: 22px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    color: #ffffff;
+}
+
+#bottomHeroThank p {
+    /*width: 372px;*/
+    height: 33px;
+    opacity: 0.66;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 100;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-align: center;
+    color: #ffffff;
+}
 
 /*This begins media queries*/
 
@@ -639,7 +814,7 @@ padding-top: 100px;
   @media(max-width: 1200px){
     .navbar-nav a {
         font-size: 18px !important;
-        background-color: rgba(138, 151, 230, .9) !important;
+        background-color: white !important;
      }
 
 }
@@ -744,6 +919,13 @@ padding: 0px;
 }
 .navbar-default{
   background: transparent !important;
+  border-bottom: none !important;
+
+}
+#example-navbar-collapse{
+  border: none !important;
+  padding: -15px !important;
+  background-color: transparent;
 }
   #portfolio img{
     margin-left: 0px;
@@ -759,6 +941,10 @@ padding: 0px;
   #bottomHero p{
     font-size: 18px !important;
   }
+  #bottomHeroThank p{
+    font-size: 18px !important;
+  }
+
   .navbar-brand img {
       height: 20px !important;
       width: 75px !important;
@@ -864,7 +1050,13 @@ width: 100px;
         font-weight: 300;
     }
 
+.certDetails{
+  max-height: 100px;
+  font-size: 18px;
+  /*margin-bottom: 10px;
+  margin-top: 0px;*/
 
+}
     .contact{
       margin-top: -50px !important;
      }
@@ -893,6 +1085,19 @@ width: 100px;
         color: #ffffff;
         padding-bottom: 100px !important;
     }
+    #bottomHeroThank p {
+        /*width: 372px;*/
+        height: 33px;
+        opacity: 0.66;
+        font-family: 'Lato';
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 1.8px;
+        text-align: center;
+        color: #ffffff;
+        padding-bottom: 100px !important;
+    }
+
 }
 
 @media(min-width: 768px)and (max-width: 1100px){
@@ -928,7 +1133,6 @@ width: 100vw;
   padding: -15px;
   margin-top: 20px;
   text-align: center;
-
 }
 #bites h3{
   text-align: center;
@@ -944,6 +1148,8 @@ width: 100vw;
 .otherWork{
   position: relative;
 }
-
+#education h3{
+  font-size: 18px;
+}
 
 }
