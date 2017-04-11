@@ -766,6 +766,7 @@ body {
         color: #fff;
         font-family: Lato, sans-serif!important;
         padding-top: 100px
+
     }
 }
 
@@ -778,6 +779,7 @@ body {
         font-weight: 100!important;
         font-size: 18px
     }
+
     .contact {
         width: 100px;
         height: 25.2px;
@@ -808,6 +810,7 @@ body {
     #aboutMe {
         /*margin-top: -90px*/
     }
+
     .navbar-header {
         padding: 0
     }
@@ -855,7 +858,8 @@ body {
         text-align: center
     }
     #hero h1, #heroText {
-        font-size: 22px!important
+        font-size: 22px!important;
+        margin-top: 75px;
     }
     #portfolio {
         height: 100%;
@@ -866,7 +870,7 @@ body {
         margin: 0 auto
     }
     #hero {
-        height: 300px;
+        height: 410px;
         width: 100%;
         margin-bottom: 0;
         padding-top: 30px
@@ -940,6 +944,7 @@ body {
     .contact {
         margin-top: -50px!important;
         font-weight: normal;
+        font-size: 12px;
     }
     #rotate {
         margin-bottom: -25px;
@@ -996,7 +1001,12 @@ body {
     margin-bottom: -45px
 }
 #hero{
-  margin-bottom: -300px !important;
+  margin-bottom: 0px !important;
+  height: 500px;
+}
+#aboutMe{
+  margin-top: -70px;
+
 }
     .heroCTA{
       font-weight: normal;
@@ -1028,6 +1038,15 @@ body {
         text-align: center;
         color: #fff!important;
     }
+
+
+        #hero {
+
+            background-image: url(../img/HeroFull@2x.png);
+            background-size: contain;
+            background-attachment: fixed;
+
+        }
     .navbar-nav a {
         font-size: 18px!important;
         background-color: rgba(138, 151, 230, .9)!important;
