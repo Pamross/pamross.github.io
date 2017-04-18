@@ -1,0 +1,5 @@
+## JetBrains IDE user settings folder.
+.idea
+
+## File-based project format.
+*.iws
